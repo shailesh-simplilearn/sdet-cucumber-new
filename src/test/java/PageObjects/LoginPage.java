@@ -11,7 +11,7 @@ public class LoginPage  {
 	public LoginPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
-	
+	//comment
 	@FindBy(xpath = "//a[@title='Log in to your customer account']")
 	private WebElement signInLink;
 	
