@@ -14,7 +14,7 @@ public class LoginPage  {
 	//comment
 	@FindBy(xpath = "//a[@title='Log in to your customer account']")
 	private WebElement signInLink;
-	
+	//comment
 	@FindBy(id = "email")
 	private WebElement emailTextBox;
 	@FindBy(id = "passwd")
